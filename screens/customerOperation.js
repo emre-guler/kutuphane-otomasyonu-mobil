@@ -14,7 +14,7 @@ export default class customerOperation extends Component {
     this.deleteIndex = this.deleteIndex.bind(this);
   }
   deleteIndex = async (index) => {
-    const response = await fetch('https://0b61ec72.ngrok.io/api/library/customeroperation',{
+    const response = await fetch('',{
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -43,7 +43,7 @@ export default class customerOperation extends Component {
   }
   sendRequest = async () => 
   {
-    const response = await fetch("https://0b61ec72.ngrok.io/api/library/customeroperation",{
+    const response = await fetch("",{
       method: 'POST',
       headers: {
         Accept: 'application/json',
