@@ -15,7 +15,7 @@ export default class onLentBook extends Component {
   }
   taketItBack = async (index) => {
     let bookuserdata = this.state.tableData[index][0];
-    const response = await fetch('https://0b61ec72.ngrok.io/api/library/onlentbook',{
+    const response = await fetch('',{
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -42,7 +42,7 @@ export default class onLentBook extends Component {
     header: null
   }
   sendRequest = async () => {
-    const response = await fetch("https://0b61ec72.ngrok.io/api/library/onlentbook",{
+    const response = await fetch("",{
       method: 'POST',
       headers: {
         Accept: 'application/json',
