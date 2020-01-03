@@ -12,7 +12,7 @@ export default class addBookPage extends Component{
   }
   addBook(){
     const {navigate} = this.props.navigation;
-    fetch('https://0b61ec72.ngrok.io/api/library/bookoperation',{
+    fetch('',{
       method: 'POST',
       headers: {
         Accept: 'application/json',
