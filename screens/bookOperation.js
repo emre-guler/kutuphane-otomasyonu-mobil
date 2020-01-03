@@ -14,7 +14,7 @@ export default class bookOperation extends Component {
     this.deleteIndex = this.deleteIndex.bind(this);
   }
   deleteIndex = async (index) => {
-    const response = await fetch('https://0b61ec72.ngrok.io/api/library/bookoperation',{
+    const response = await fetch('',{
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -42,7 +42,7 @@ export default class bookOperation extends Component {
     header: null
   }
    sendRequest = async () => {
-    const response = await fetch("https://0b61ec72.ngrok.io/api/library/bookoperation",{
+    const response = await fetch("",{
       method: 'POST',
       headers: {
         Accept: 'application/json',
