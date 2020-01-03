@@ -38,7 +38,7 @@ export default class givelentBook extends Component {
   }
   sendRequest = async () => 
   {
-    let response = await fetch("https://0b61ec72.ngrok.io/api/library/giveLentBook",{
+    let response = await fetch("",{
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -63,7 +63,7 @@ export default class givelentBook extends Component {
       newArray = [];
     }
     this.setState({tableDataForBooks: lastArray});
-    response = await fetch("https://0b61ec72.ngrok.io/api/library/giveLentBook",{
+    response = await fetch("",{
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -92,7 +92,7 @@ export default class givelentBook extends Component {
   }
   lentClicked = async () => 
   {
-    const response = await fetch('https://0b61ec72.ngrok.io/api/library/giveLentBook',
+    const response = await fetch('',
     {
       method: 'POST',
       headers: {
