@@ -11,7 +11,7 @@ export default class addCustomerPage extends Component {
   }
   addCustomer(){
     const {navigate} = this.props.navigation;
-    fetch('https://0b61ec72.ngrok.io/api/library/customeroperation',{
+    fetch('',{
       method: 'POST',
       headers: {
         Accept: 'application/json',
