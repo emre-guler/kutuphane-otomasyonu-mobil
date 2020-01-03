@@ -15,7 +15,7 @@ export default class SigninPage extends Component{
   };
   signin(){
     const {navigate} = this.props.navigation;
-    fetch('https://0b61ec72.ngrok.io/api/library',{
+    fetch('',{
       method: 'POST',
       headers: {
         Accept: 'application/json',
